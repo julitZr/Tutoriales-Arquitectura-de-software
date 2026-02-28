@@ -30,9 +30,6 @@ ALLOWED_HOSTS = []
 
 
 # Application definition
-MEDIA_URL = '/media/'
-
-MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -126,5 +123,3 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/5.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
-
-IMAGE_STORAGE_CLASS = 'pages.utils.ImageLocalStorage'
